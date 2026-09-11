@@ -2,7 +2,7 @@ name: Terraform Pipeline
 on:
   push:
     branches:
-      - main
+      - main/feature01
 
 jobs :
   terraform:
@@ -19,3 +19,4 @@ jobs :
 
       - name: Terraform Plan
         run: terraform plan
+        
