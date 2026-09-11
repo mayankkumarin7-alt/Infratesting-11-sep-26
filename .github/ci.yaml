@@ -2,7 +2,7 @@ name: Terraform Pipeline
 on:
   push:
     branches:
-      - main/feature01
+      - feature01
 
 jobs :
   terraform:
